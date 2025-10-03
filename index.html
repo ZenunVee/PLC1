@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plasma Life Center - Therapeutic Plasma Exchange</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Calendly widget script -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Plasma Life Center Logo" class="logo-image">
+                <h2>Plasma Life Center</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="#about" class="nav-link">About TPE</a>
+                <a href="#benefits" class="nav-link">Benefits</a>
+                <a href="#expert-care" class="nav-link">Expert Care</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-particles"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Cutting-Edge Treatment</span>
+                </div>
+                <h1>Therapeutic Plasma Exchange</h1>
+                <p class="hero-subtitle">Discover the power of Therapeutic Plasma Exchange (TPE) – a cutting-edge treatment that cleanses your blood, balances your body, and helps manage chronic conditions while potentially slowing the signs of aging. Based in San Carlos, CA. At PLC we put your health above everything else and provide highest level of care.</p>
+                <div class="hero-cta">
+                    <button class="cta-button primary" onclick="openCalendly()">
+                        <i class="fas fa-calendar-alt"></i>
+                        Book your Free Consultation
+                    </button>
+                    <button class="cta-button secondary" onclick="scrollToSection('benefits')">
+                        <i class="fas fa-play"></i>
+                        Learn More
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Treatments</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section id="about" class="main-content">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <h2>Unlock Longevity & Optimal Wellness with TPE</h2>
+                    <h3>TPE — Your Pathway to Extended Healthy Lifespan</h3>
+                    <p>Over time, our bodies accumulate elements that diminish vitality. Therapeutic Plasma Exchange (TPE) intervenes by removing harmful substances and replenishing with Albumin a critical protein for our body, and directly contributing to enhanced wellness and a <strong>longer, healthier life.</strong></p>
+                </div>
+                <div class="content-visual">
+                    <div class="visual-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Safe & Effective</h4>
+                        <p>FDA-approved treatment with minimal side effects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>What does TPE do?</h2>
+                <p>Three powerful benefits that transform your health</p>
+            </div>
+            
+            <!-- TPE Process Visual -->
+            <div class="tpe-process-visual">
+                <div class="process-image">
+                    <img src="images/diagram.png" alt="TPE Process Diagram" class="process-diagram">
+                </div>
+                <div class="process-description">
+                    <h3>How TPE Works</h3>
+                    <p>Our advanced Therapeutic Plasma Exchange process safely removes harmful substances from your blood while preserving essential components, promoting optimal health and longevity.</p>
+                </div>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-filter"></i>
+                    </div>
+                    <div class="benefit-number">1</div>
+                    <h3>Deep Cleansing for Sustained Wellness</h3>
+                    <p>TPE mechanically removes environmental toxins such as forever chemical, microplastics, inflammatory proteins, and other harmful substances that hinder optimal bodily function and accelerate aging, fostering a foundation for lasting wellness.</p>
+                    
+                    <!-- Microplastics Impact Visual -->
+                    <div class="microplastics-visual">
+                        <img src="images/impact.png" alt="Microplastics Impact on Health" class="microplastics-image">
+                        <div class="visual-caption">
+                            <h4>Impact of TPE on Microplastics & Health</h4>
+                            <p>See how TPE reduces microplastic burden and supports immune function, longevity, and anti-aging benefits.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-features">
+                        <span class="feature-tag">Toxin Removal</span>
+                        <span class="feature-tag">Microplastics</span>
+                        <span class="feature-tag">Inflammation</span>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="benefit-number">2</div>
+                    <h3>Neurological Support for Cognitive Longevity</h3>
+                    <p>TPE supports neurological health and cognitive function by removing aged albumin from circulation. Studies have shown it slows cognitive decline.</p>
+                    <div class="benefit-features">
+                        <span class="feature-tag">Cognitive Health</span>
+                        <span class="feature-tag">Memory Support</span>
+                        <span class="feature-tag">Brain Function</span>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="benefit-number">3</div>
+                    <h3>Activating Anti-Aging & Vitality</h3>
+                    <p>Studies suggest TPE can significantly reduce inflammation and epigenetic markers associated with aging, promoting renewed vitality and contributing to an extended, healthier lifespan.</p>
+                    <div class="benefit-features">
+                        <span class="feature-tag">Anti-Aging</span>
+                        <span class="feature-tag">Vitality</span>
+                        <span class="feature-tag">Longevity</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expert Care Section -->
+    <section id="expert-care" class="expert-care">
+        <div class="container">
+            <div class="expert-content">
+                <div class="expert-info">
+                    <h2>Expert-Led Care</h2>
+                    <p>Our treatments are guided by experts like <strong>Dr. Muharrem Yunce</strong> from Stanford University, ensuring the highest standards of safety and efficacy.</p>
+                    <div class="expert-credentials">
+                        <div class="credential">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Stanford University</span>
+                        </div>
+                        <div class="credential">
+                            <i class="fas fa-certificate"></i>
+                            <span>Board Certified</span>
+                        </div>
+                        <div class="credential">
+                            <i class="fas fa-award"></i>
+                            <span>15+ Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Treatment Experience Visual -->
+                <div class="treatment-experience">
+                    <div class="experience-image">
+                        <img src="images/illus.webp" alt="TPE Treatment Experience" class="treatment-image">
+                    </div>
+                    <div class="experience-description">
+                        <h3>Comfortable Treatment Experience</h3>
+                        <p>Experience TPE in our state-of-the-art facility with expert medical supervision and personalized care in a comfortable, relaxing environment.</p>
+                    </div>
+                </div>
+                
+                <div class="expert-cta">
+                    <button class="cta-button secondary" onclick="openCalendly()">
+                        <i class="fas fa-video"></i>
+                        15 Minute Meeting - Dr. Muharrem Yunce
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology & Location Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Redefining Excellence: The Future of TPE Care</h2>
+                <p class="section-subtitle">Setting a New Standard for Clinical-Grade Treatment</p>
+            </div>
+            <p class="features-intro">At Plasma Life Center in San Carlos, we are committed to making advanced Therapeutic Plasma Exchange (TPE) accessible without compromising the highest standards of care. Our focus on efficient operations, outpatient delivery, and expert partnerships ensures superior quality. We emphasize clinical excellence, personalized support, and cutting-edge technology, reflecting our dedication to your long-term health.</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Advanced Technology</h3>
+                    <p>Utilizing the Terumo BCT Spectra Optia Apheresis System for maximum safety and efficiency in every treatment.</p>
+                    <div class="feature-highlight">
+                        <span>FDA Approved</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Strategic Location</h3>
+                    <p>Our San Carlos facility, ideally situated near major biotech hubs, offers convenient access across the Bay Area.</p>
+                    <div class="feature-highlight">
+                        <span>Bay Area Access</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Personalized Care</h3>
+                    <p>We develop customized treatment plans, ensuring quick recovery times and comprehensive support tailored to individual needs.</p>
+                    <div class="feature-highlight">
+                        <span>Custom Plans</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Waitlist Section -->
+    <section class="waitlist">
+        <div class="container">
+            <div class="section-header">
+                <h2>Join Our Waitlist: Start Your Journey Today</h2>
+                <p class="section-subtitle">Simple Sign-Up for Priority Access</p>
+            </div>
+            <p class="waitlist-intro">Be among the first to experience Plasma Life Center's transformative TPE services. Our waitlist is your gateway to expert care in San Carlos. Signing up takes seconds – and secures your spot for launch updates, discounts, and consultations.</p>
+            
+            <div class="waitlist-steps">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <div class="step-number">01</div>
+                    <h3>Join Our Client Waitlist</h3>
+                    <p>Book an Appointment</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="step-number">02</div>
+                    <h3>Receive Updates</h3>
+                    <p>Educational tips and exclusive webinar invitations</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <div class="step-number">03</div>
+                    <h3>Priority Access</h3>
+                    <p>First access to appointments and introductory discounts</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="step-number">04</div>
+                    <h3>Begin Treatment</h3>
+                    <p>Start your journey to better health and vitality</p>
+                </div>
+            </div>
+            
+            <div class="waitlist-form">
+                <div class="form-header">
+                    <h3>Your information will be used solely for scheduling purposes. We do not share, sell, or distribute your information to any third parties.</h3>
+                </div>
+                <form id="waitlistForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group captcha-group">
+                        <label for="captcha">Security Check: <span id="captcha-question"></span></label>
+                        <input type="number" id="captcha" placeholder="Your answer" required>
+                        <button type="button" class="captcha-refresh" onclick="generateCaptcha()" title="Refresh">
+                            <i class="fas fa-refresh"></i>
+                        </button>
+                    </div>
+                    <button type="submit" class="cta-button primary">
+                        <i class="fas fa-rocket"></i>
+                        Join Waitlist
+                    </button>
+                </form>
+            </div>
+            
+            <div class="waitlist-benefits">
+                <h3>What You'll Get</h3>
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Immediate confirmation and priority status</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-book"></i>
+                        <span>Educational resources on TPE benefits</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-percent"></i>
+                        <span>Exclusive introductory offers and discounts</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-phone"></i>
+                        <span>Free consultation opportunities</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Disclaimer Section -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="disclaimer">
+                    <h3>Disclaimer:</h3>
+                    <p>PLC TPE protocols are designed to support overall health and wellness. They are not intended to diagnose, treat, cure, or prevent any disease. The information provided on this page is for educational purposes only and should not replace medical advice. Please consult with your healthcare provider before beginning any new health program, especially if you have a medical condition or are taking prescribed medications.</p>
+                </div>
+                
+                <div class="contact-info">
+                    <h3>Contact:</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <button class="email-button" onclick="sendEmail()">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Email
+                            </button>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>650-289-8038</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>1785 San Carlos Ave, 4<br>San Carlos CA, 94070</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-note">
+                <p>Expert-led care in a comfortable, private setting – because your health deserves the best.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+    <!-- Chatbot -->
+    <script
+      src='https://cdn.jotfor.ms/agent/embedjs/0199aaf018d87f3b97792531604f51b48ed3/embed.js?skipWelcome=1&maximizable=1'>
+    </script>
+</body>
+</html>
