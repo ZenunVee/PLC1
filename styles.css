@@ -1009,6 +1009,149 @@ body {
     line-height: 1.7;
 }
 
+/* TPE Steps Styling */
+.tpe-steps {
+    margin-top: 30px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.tpe-steps h4 {
+    font-size: 1.5rem;
+    color: #2596be;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.step-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 25px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.step-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+}
+
+.step-item .step-number {
+    width: 40px;
+    height: 40px;
+    background: #2596be;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.step-content h5 {
+    font-size: 1.2rem;
+    color: #2596be;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.step-content p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.session-info {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(37, 150, 190, 0.1);
+    border-radius: 10px;
+    border-left: 4px solid #2596be;
+}
+
+.session-info p {
+    font-size: 1.1rem;
+    color: #2596be;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Conditions Section */
+.conditions {
+    padding: 100px 0;
+    background: #f8f9fa;
+}
+
+.conditions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.condition-category {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.condition-category:hover {
+    transform: translateY(-5px);
+    border-color: #2596be;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.condition-category h3 {
+    font-size: 1.4rem;
+    color: #2596be;
+    margin-bottom: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid #2596be;
+    padding-bottom: 10px;
+}
+
+.condition-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.condition-category li {
+    padding: 8px 0;
+    font-size: 1rem;
+    color: #666;
+    position: relative;
+    padding-left: 20px;
+}
+
+.condition-category li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #2596be;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Credential Logos */
+.credential-logo {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
 .footer-note {
     text-align: center;
     padding-top: 40px;
